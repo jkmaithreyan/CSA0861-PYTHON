@@ -1,0 +1,8 @@
+def countword(s):
+    if(s.strip())==" ":
+        return 0
+    words=s.split()
+    return len(words)
+if __name__=="__main__":
+    s=input("enter the string ")
+    print("number of words are : ",countword(s))
